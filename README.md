@@ -8,4 +8,4 @@
 - **persistence** - layers with the persistence of the hotspots and coolspots considering at most 10, 20 and 50 hotspots, with and without impreviousness
 - **severity** - layers containing the combination of persistence and overall intensity classes for 10, 20 and 50 hotspots and cool spots with and without imperviousness
 
-The **function.r** file contains all the functions used to generate the data.
+The **function.r** file contains the functions used to generate the data.
