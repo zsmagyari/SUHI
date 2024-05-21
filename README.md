@@ -1,1 +1,1 @@
-# HotSpots
+# Urban Heat Island
