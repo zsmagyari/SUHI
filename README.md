@@ -1,7 +1,8 @@
-# Ranked Surface Urban Heat Island detection for hotspots and cool spots  
+<p align="center" > <b>Ranked Surface Urban Heat Island detection for hotspots and cool spots </b>  </p>
 
-**SUHI-HS** detection algorithm
+
 ![suhi](https://github.com/user-attachments/assets/32ad7df0-fab8-4ce1-8c92-6f6d10a2bbb4)
+<p align="center"> The pseudocode algorithm for Ranked Surface Urban Heat Island detection </p>
 
 ---
 
