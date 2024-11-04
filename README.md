@@ -1,4 +1,4 @@
-<p align="center" > <b>Ranked Surface Urban Heat Island detection for hotspots and cool spots </b>  </p>
+## Ranked Surface Urban Heat Island detection for hotspots and cool spots
 
 
 ![suhi](https://github.com/user-attachments/assets/32ad7df0-fab8-4ce1-8c92-6f6d10a2bbb4)
