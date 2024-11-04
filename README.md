@@ -14,7 +14,7 @@
 
 The **functions.R** file contains the functions used to generate the data. The parametrization and then naming convention used for the resulted files is decribed below.
 
-**getHotSpot** function:
+**getHotSpots** function:
 * parameters:
   - **wd** - full path to the working directory where the LST (Landsat B10 band) is located
   - **fn** - LST (Landsat B10 band) filename without extension
@@ -23,15 +23,15 @@ The **functions.R** file contains the functions used to generate the data. The p
   - **minThreshold** - percentile defining the minimum average value for an HS
 * naming convention: **HS _**«_maxHotSpotNo_»**_**«_minAcceptedValuePercentile_»**_**«_minMeanValuePercentile_»**-**«_originalLSTfilename_» 
 
-**hotSpotPersistence** function:
+**hotspotPersistence** function:
 * parameters:
   - **wd** - full path to working directory where a folder named spots should contain all the files resulting from the above-presented SUHI-HS detection algorithm
   - **type** - a string parameter representing a filter to differentiate between situations when imperviousness was and wasn’t considered for SUHI-HSs detection
   - **limit** - maximum number of SUHI-HS to be considered for the assessment
   - **partNo** - number of classes for reclassification
-* naming convention: **T_nr**«_numberOfConsideredFiles_»**_limit**«_maxSpotNumber_»**_**«_typeParamValue_»
+* naming convention: **T_nr**«_numberOfConsideredFiles_»**_limit**«_maxSpotNumber_»**_part**«_numberOfIntervals_»**_**«_typeParamValue_»
 
-**hotSpotOverallIntensity** function:
+**hotspotOverallIntensity** function:
 * parameters:
   - **wd** - full path to working directory where a folder named spots should contain all the files resulting from the above-presented SUHI-HS detection algorithm
   - **type** - a string parameter representing a filter to differentiate between situations when imperviousness was and wasn’t considered for SUHI-HSs detection
