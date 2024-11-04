@@ -16,10 +16,10 @@ The **functions.R** file contains the functions used to generate the data. The p
 
 **getHotSpot** function:
 
-- parameters:
-  **wd** - full path to the working directory where the LST (Landsat B10 band) is located
-  **fn** - LST (Landsat B10 band) filename without extension
-  **no** - – maximum number of HSs to be detected
-  **minAcceptedValueTh** - percentile defining the minimum accepted value for a cell to be part of an HS
-  **minThreshold** - percentile defining the minimum average value for an HS
--naming convention: **HS_<maxHotSpotNo>_<minAcceptedValuePercentile>_<minMeanValuePercentile>-<originalLSTfilename>** 
+* parameters:
+- **wd** - full path to the working directory where the LST (Landsat B10 band) is located
+- **fn** - LST (Landsat B10 band) filename without extension
+- **no** - – maximum number of HSs to be detected
+- **minAcceptedValueTh** - percentile defining the minimum accepted value for a cell to be part of an HS
+- **minThreshold** - percentile defining the minimum average value for an HS
+* naming convention: **HS_<maxHotSpotNo>_<minAcceptedValuePercentile>_<minMeanValuePercentile>-<originalLSTfilename>** 
