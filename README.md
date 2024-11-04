@@ -1,6 +1,7 @@
 # Ranked Surface Urban Heat Island detection for hotspots and cool spots  
 
 **SUHI-HS** detection algorithm
+![suhi](https://github.com/user-attachments/assets/32ad7df0-fab8-4ce1-8c92-6f6d10a2bbb4)
 
 
 **DATA** folder structure:
