@@ -1,5 +1,8 @@
 # Ranked Surface Urban Heat Island detection for hotspots and cool spots  
 
+**SUHI-HS** detection algorithm
+
+
 **DATA** folder structure:
 - **LST** - Land Surface Temperature layer from Landsat imagery for 2023 with maximum 5% cloud cover, clipped to Oradea (Romania)
 - **hotSpots** - layers with 10, 20 and 50 hotspots, with and without impreviousness
