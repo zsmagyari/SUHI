@@ -18,7 +18,24 @@ The **functions.R** file contains the functions used to generate the data. The p
 * parameters:
   - **wd** - full path to the working directory where the LST (Landsat B10 band) is located
   - **fn** - LST (Landsat B10 band) filename without extension
-  - **no** - – maximum number of HSs to be detected
+  - **no** - maximum number of HSs to be detected
   - **minAcceptedValueTh** - percentile defining the minimum accepted value for a cell to be part of an HS
   - **minThreshold** - percentile defining the minimum average value for an HS
-* naming convention: **HS_<<maxHotSpotNo>>_<<minAcceptedValuePercentile>>_<<minMeanValuePercentile>>-<<originalLSTfilename>>** 
+* naming convention: **HS _**«_maxHotSpotNo_»**_**«_minAcceptedValuePercentile_»**_**«_minMeanValuePercentile_»**-**«_originalLSTfilename_» 
+
+**hotSpotPersistence** function:
+* parameters:
+  - **wd** - full path to working directory where a folder named spots should contain all the files resulting from the above-presented SUHI-HS detection algorithm
+  - **type** - a string parameter representing a filter to differentiate between situations when imperviousness was and wasn’t considered for SUHI-HSs detection
+  - **limit** - maximum number of SUHI-HS to be considered for the assessment
+  - **partNo** - number of classes for reclassification
+* naming convention: **T_nr**«_numberOfConsideredFiles_»**_limit**«_maxSpotNumber_»**_**«_typeParamValue_»
+
+**hotSpotOverallIntensity** function:
+* parameters:
+  - **wd** - full path to working directory where a folder named spots should contain all the files resulting from the above-presented SUHI-HS detection algorithm
+  - **type** - a string parameter representing a filter to differentiate between situations when imperviousness was and wasn’t considered for SUHI-HSs detection
+  - **limit** - maximum number of SUHI-HSs to be considered
+  - **partNo** - number of intervals/classes
+  - **bitNo** - number of bits to represent a hotspot rank
+* naming convention: **I_nr**«_numberOfConsideredFiles_»**_limit**«_maxSpotNumber_»**_part**«_numberOfIntervals_»**_**«_typeParamValue_» 
