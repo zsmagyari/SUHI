@@ -25,7 +25,7 @@ The **functions.R** file contains the functions used to generate the data. The p
   - **no** - maximum number of HSs to be detected
   - **minAcceptedValueTh** - percentile defining the minimum accepted value for a cell to be part of an HS
   - **minThreshold** - percentile defining the minimum average value for an HS
-* naming convention: **HS _**«_maxHotSpotNo_»**_**«_minAcceptedValuePercentile_»**_**«_minMeanValuePercentile_»**-**«_originalLSTfilename_» 
+* naming convention: **HS_**«_maxHotSpotNo_»**_**«_minAcceptedValuePercentile_»**_**«_minMeanValuePercentile_»**-**«_originalLSTfilename_» 
 
 ---
 
